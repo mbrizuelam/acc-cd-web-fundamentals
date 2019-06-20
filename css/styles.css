@@ -58,7 +58,7 @@ article {
 
 aside {
     float: right;
-    margin-bottom: 16px;
     min-height: 600px;
+    padding: 16px;
     width: 20%;
 }
