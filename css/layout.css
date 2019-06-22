@@ -43,7 +43,7 @@ article {
     padding: 16px;
 }
 
-aside {
+aside.sidebar {
     float: right;
     min-height: 600px;
     padding: 16px;
