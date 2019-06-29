@@ -13,7 +13,7 @@ header .logo {
     display: flex;
 }
 
-header .logo-initials {
+header .iniciales {
     align-items: center;
     background-color: #067791;
     border-radius: 8px;
