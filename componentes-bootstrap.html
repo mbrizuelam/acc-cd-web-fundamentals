@@ -1,0 +1,128 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/vendors/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/vendors/open-iconic-bootstrap.min.css" />
+    <title>Componentes de Bootstrap</title>
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <h2 class="my-4">Barra de Navegación</h2>
+        <!-- Componente de Barra de Navegacion de Boostrap -->
+        <div class="nav-container container-fluid">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <span class="navbar-brand d-lg-none">Menu</span>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Mostrar / Ocultar Menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+    
+                <div class="links collapse navbar-collapse" id="mainNav">
+                    <a class="nav-link active" href="index.html">Inicio</a>
+                    <a class="nav-link" href="libros.html">Mis libros favorito</a>
+                    <a class="nav-link" href="videos.html">Mis videos favoritos</a>
+                    <a class="nav-link" href="juegos.html">Mis juegos favoritos</a>
+                    <a class="nav-link" href="bio.html">Acerca de mi</a>
+                </div>
+            </nav>
+        </div>
+        <!-- Componente de Barra de Navegacion de Boostrap -->
+
+
+
+        <h2 class="my-4">Tarjeta con reproductor de video</h2>
+        <!-- Componente de Tarjeta con reproductor de video de Boostrap -->
+        <div class="card">
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/mk48xRzuNvA" allowfullscreen></iframe>
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Título del video</h5>
+                <p class="card-text">Nombre de la banda</p>
+            </div>
+        </div>
+        <!-- Componente de Tarjeta con reproductor de video de Boostrap -->
+
+
+
+        <h2 class="my-4">Media</h2>
+        <!-- Componente de Media de Boostrap -->
+        <div class="media">
+            <div class="thumbnail">
+                <img src="../img/placeholder.png" alt="Libro">
+            </div>
+            <div class="media-body">
+                <p><strong>Nombre</strong></p>
+                <div class="synopsis">
+                    <p>Descripción</p>
+                </div>
+                <a class="body-link" href="#">Ver más</a>
+            </div>
+        </div>
+        <!-- Componente de Media de Boostrap -->
+
+
+
+        <h2 class="my-4">Jumbotron</h2>
+        <!-- Componente de Jumbotron de Boostrap -->
+        <div class="jumbotron">
+            <h1 class="display-4">Hola mundo!</h1>
+            <p class="lead">Párrafo principal del jumbotron</p>
+            <hr class="my-4">
+            <ul>
+                <li>Item 1</li>
+            </ul>
+        </div>
+        <!-- Componente de Jumbotron de Boostrap -->
+
+
+
+        <h2 class="my-4">Carousel</h2>
+        <!-- Componente de Carousel de Boostrap -->
+        <div id="bio" class="carousel slide" data-ride="carousel">
+            <!-- Indicadores -->
+            <ul class="carousel-indicators">
+                <li data-target="#bio" data-slide-to="0" class="active"></li>
+                <li data-target="#bio" data-slide-to="1"></li>
+                <li data-target="#bio" data-slide-to="2"></li>
+            </ul>
+
+            <!-- Imágenes -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="w-100 img-fluid" src="../img/la.jpg" alt="Los Angeles">
+                </div>
+                <div class="carousel-item">
+                    <img class="w-100 img-fluid" src="../img/chicago.jpg" alt="Chicago">
+                </div>
+                <div class="carousel-item">
+                    <img class="w-100 img-fluid" src="../img/ny.jpg" alt="New York">
+                </div>
+            </div>
+
+            <!-- Botones para mover las imagenes -->
+            <a class="carousel-control-prev" href="#bio" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#bio" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
+        <!-- Componente de Carousel de Boostrap -->
+    </div>
+
+
+
+    <!-- Archivos de JavaScript para cargar Boostrap -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="../js/vendors/bootstrap.min.js"></script>
+    <!-- Archivos de JavaScript para cargar Boostrap -->
+</body>
+
+</html>
