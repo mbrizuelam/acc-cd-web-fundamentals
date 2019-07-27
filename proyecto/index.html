@@ -8,14 +8,14 @@
     <link rel="stylesheet" href="../css/vendors/bootstrap.min.css" />
     <link rel="stylesheet" href="../css/vendors/open-iconic-bootstrap.min.css" />
     <link rel="stylesheet" href="../css/styles.css" />
-    <title>Nombre Apellido - Mi Website</title>
+    <title>Sauyin Porras - Mi Website</title>
 </head>
 
 <body>
 
     <header>
         <div class="logo">
-            <div class="iniciales">XX</div>
+            <div class="iniciales">SAU</div>
             <div class="logo-name"><strong>Mi Website</strong></div>
         </div>
         <div class="logo-tf">
@@ -26,29 +26,56 @@
     </header>
 
     <!--Insertar barra de navegación de Bootstrap-->
+<!-- Componente de Barra de Navegacion de Boostrap -->
+<div class="nav-container container-fluid">
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <span class="navbar-brand d-lg-none">Menu</span>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Mostrar / Ocultar Menu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
+        <div class="links collapse navbar-collapse" id="mainNav">
+            <a class="nav-link active" href="index.html">Inicio</a>
+            <a class="nav-link" href="libros.html">Mis libros favorito</a>
+            <a class="nav-link" href="videos.html">Mis videos favoritos</a>
+            <a class="nav-link" href="juegos.html">Mis juegos favoritos</a>
+            <a class="nav-link" href="bio.html">Acerca de mi</a>
+        </div>
+    </nav>
+</div>
+<!-- Componente de Barra de Navegacion de Boostrap -->
     <div class="wrapper container">
         <section>
-            <h1>Los intereses de Nombre</h1>
+            <h1>Los intereses de Sauyin</h1>
             <p>En esta página puedes conocer un poco más de mi, mis libros, videos y juegos favoritos.</p>
         </section>
         <div class="row row-margin">
             <!--Insertar configuración de columnas Mobile 12 / Tablet 6 / Desktop 9 -->
-            <div class="content">
+            <div class="content col-12 col-sm-6 col-md-9">
                 <!--Copiar y pegar etiqueta article para videos y para juegos -->
                 <article>
                     <h2>Mis libros favoritos</h2>
-                    <p>Descripción</p>
+                    <p>Me gustan los libros de suspenso,de terror</p>
                     <a class="body-link" href="libros.html">Ver mis libros favoritos</a>
                 </article>
+                <article>
+                        <h2>Mis videos favoritos</h2>
+                        <p>Me gustan los videos de musica elecronica,los vodeos de terror,los videos de accion</p>
+                        <a class="body-link" href="videos.html">Ver mis videos favoritos</a>
+                    </article>
+                    <article>
+                            <h2>Mis juegos favoritos</h2>
+                            <p>Me gustan los juegos de accion,gta 5,juegos de historia</p>
+                            <a class="body-link" href="juegos.html">Ver mis juegos favoritos</a>
+                        </article>
             </div>
             <!--Insertar configuración de columnas Mobile 12 / Tablet 6 / Desktop 3 -->
-            <aside class="">
+            <aside class="col-12 col-sm-6 col-md-3">
                 <div class="card">
                     <img class="card-img-top" src="../img/card-image.png" alt="Card image cap">
                     <div class="card-body">
-                        <h5 class="card-title">Nombre Apellido</h5>
-                        <p class="card-text">Descripción</p>
+                        <h5 class="card-title">Sauyin Porras</h5>
+                        <p class="card-text">Me gusta dibujar, escuchar musica</p>
                         <a href="bio.html" class="btn btn-primary">Ver más</a>
                     </div>
                 </div>
@@ -66,6 +93,11 @@
     </footer>
 
     <!--Insertar Javascripts de Bootstrap -->
+     <!-- Archivos de JavaScript para cargar Boostrap -->
+     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+     <script src="../js/vendors/bootstrap.min.js"></script>
+     <!-- Archivos de JavaScript para cargar Boostrap -->
 </body>
 
 </html>
