@@ -8,14 +8,14 @@
     <link rel="stylesheet" href="../css/vendors/bootstrap.min.css" />
     <link rel="stylesheet" href="../css/vendors/open-iconic-bootstrap.min.css" />
     <link rel="stylesheet" href="../css/styles.css" />
-    <title>Nombre Apellido - Mis Videos</title>
+    <title>Meybelline Cornejo- Mis Videos</title>
 </head>
 
 <body>
 
     <header>
         <div class="logo">
-            <div class="iniciales">XX</div>
+            <div class="iniciales">MC</div>
             <div class="logo-name"><strong>Mi Website</strong></div>
         </div>
         <div class="logo-tf">
@@ -36,7 +36,7 @@
             <div class="links collapse navbar-collapse" id="mainNav">
                 <a class="nav-link" href="index.html">Inicio</a>
                 <a class="nav-link" href="libros.html">Mis libros favorito</a>
-                <a class="nav-link" href="videos.html">Mis videos favoritos</a>
+                <a class="nav-link active" href="videos.html">Mis videos favoritos</a>
                 <a class="nav-link" href="juegos.html">Mis juegos favoritos</a>
                 <a class="nav-link" href="bio.html">Acerca de mi</a>
             </div>
@@ -45,22 +45,41 @@
 
     <div class="wrapper container">
         <section>
-            <h1>Videos</h1>
-            <p>Descripción</p>
+            <h1>Videos preferenciales</h1>
+            <p>Te invito a ver mis videos... </p>
         </section>
         <div class="row row-margin">
             <!--Insertar configuración de columnas Mobile 12 / Tablet 6 / Desktop 9 -->
-            <div class="content">
+            <div class="content col-12 col-sm-6 col-md-9">
                 <div class="row">
                     <!--Insertar configuración de columnas Mobile 12 / Desktop 6 -->
-                    <div class="">
+                    <div class="col-12 col-md-6">
                         <!--Insertar componente de Boostrap Reproductor de Video -->
+                         <!-- Componente de Tarjeta con reproductor de video de Boostrap -->
+                        <div class="card">
+                            <div class="embed-responsive embed-responsive-16by9">
+                                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/5X-Mrc2l1d0" allowfullscreen></iframe>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Rock with you</h5>
+                                <p class="card-text">Michael jackson</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
 
             <!--Insertar etiqueta aside del index.html -->
-
+            <aside class="col-12 col-sm-6 col-md-3">
+                <div class="card">
+                    <img class="card-img-top" src="../img/card-image.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Meybelline Cornejo</h5>
+                        <p class="card-text">Estudio Diseño Publicitario, soy dibujante, soy autodidacta y creativa.</p>
+                        <a href="bio.html" class="btn btn-primary">Ver más</a>
+                    </div>
+                </div>
+            </aside>
         </div>
     </div>
 
