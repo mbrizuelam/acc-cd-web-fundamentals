@@ -38,17 +38,55 @@
                 <a class="nav-link" href="libros.html">Mis libros favorito</a>
                 <a class="nav-link" href="videos.html">Mis videos favoritos</a>
                 <a class="nav-link" href="juegos.html">Mis juegos favoritos</a>
-                <a class="nav-link" href="bio.html">Acerca de mi</a>
+                <a class="nav-link active" href="bio.html">Acerca de mi</a>
             </div>
         </nav>
     </div>
 
     <div class="wrapper container">
         <!--Insertar componente de Bootstrap Jumbotron -->
+        <!-- Componente de Jumbotron de Boostrap -->
+        <div class="jumbotron">
+            <h1 class="display-4">wendy lopez!</h1>
+            <p class="lead">me gusta la gimnasia</p>
+            <hr class="my-4">
+            <ul>
+                <li>colegio: manuel benavides rodriguez</li>
+            </ul>
+        </div>
 
         <h2>Mis lugares Favoritos</h2>
 
         <!--Insertar componente de Bootstrap Carousel -->
+        <div id="bio" class="carousel slide" data-ride="carousel">
+            <!-- Indicadores -->
+            <ul class="carousel-indicators">
+                <li data-target="#bio" data-slide-to="0" class="active"></li>
+                <li data-target="#bio" data-slide-to="1"></li>
+                <li data-target="#bio" data-slide-to="2"></li>
+            </ul>
+
+            <!-- Imágenes -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="w-100 img-fluid" src="https://umad.edu.mx/wp-content/uploads/2018/01/Francia-1.jpg" alt="Los Angeles">
+                </div>
+                <div class="carousel-item">
+                    <img class="w-100 img-fluid" src="../img/chicago.jpg" alt="Chicago">
+                </div>
+                <div class="carousel-item">
+                    <img class="w-100 img-fluid" src="../img/ny.jpg" alt="New York">
+                </div>
+            </div>
+
+            <!-- Botones para mover las imagenes -->
+            <a class="carousel-control-prev" href="#bio" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#bio" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
     </div>
 
     <footer>
