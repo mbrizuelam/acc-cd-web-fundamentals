@@ -8,14 +8,14 @@
     <link rel="stylesheet" href="../css/vendors/bootstrap.min.css" />
     <link rel="stylesheet" href="../css/vendors/open-iconic-bootstrap.min.css" />
     <link rel="stylesheet" href="../css/styles.css" />
-    <title>Alany mendez - Mi Website</title>
+    <title>Alany y Diana - Mi Website</title>
 </head>
 
 <body>
 
     <header>
         <div class="logo">
-            <div class="iniciales">AM</div>
+            <div class="iniciales">AD</div>
             <div class="logo-name"><strong>Mi Website</strong></div>
         </div>
         <div class="logo-tf">
@@ -45,10 +45,51 @@
 
     <div class="wrapper container">
         <!--Insertar componente de Bootstrap Jumbotron -->
+        <div class="jumbotron">
+                <h1 class="display-4">Alany y Diana!</h1>
+                <p class="lead">Artista, amante a la musica, estudiantes.</p>
+                <hr class="my-4">
+                <ul>
+                    <li>vivo en Heredia, nisperos 3</li>
+                    <li>Nuevo horizonte</li>
+                    <li>Quiero ser profe de mate o abogada.</li>
+                </ul>
+            </div>
 
         <h2>Mis lugares Favoritos</h2>
 
         <!--Insertar componente de Bootstrap Carousel -->
+        <h2 class="my-4">Carousel</h2>
+        <!-- Componente de Carousel de Boostrap -->
+        <div id="bio" class="carousel slide" data-ride="carousel">
+            <!-- Indicadores -->
+            <ul class="carousel-indicators">
+                <li data-target="#bio" data-slide-to="0" class="active"></li>
+                <li data-target="#bio" data-slide-to="1"></li>
+                <li data-target="#bio" data-slide-to="2"></li>
+            </ul>
+
+            <!-- Imágenes -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="w-100 img-fluid" src="../img/colombia.jpg" alt="Colombia">
+                </div>
+                <div class="carousel-item">
+                    <img class="w-100 img-fluid" src="../img/nicaragua.jpg" alt="Nicaragua">
+                </div>
+                <div class="carousel-item">
+                    <img class="w-100 img-fluid" src="../img/playa.jpg" alt="Costa Rica">
+                </div>
+            </div>
+
+            <!-- Botones para mover las imagenes -->
+            <a class="carousel-control-prev" href="#bio" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#bio" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
     </div>
 
     <footer>
